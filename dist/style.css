@@ -10,13 +10,11 @@
       background: 0 0;
       padding: 50px;
   }
-
   .Price {
       font-family: Helvetica, Arial, sans-serif;
       font-weight: 700;
       font-size: 2.5714285714285716rem;
   }
-
   .GCS {
       height: 2%;
       width: 2%;
@@ -33,7 +31,6 @@
       color: #333;
       margin-bottom: 50px;
   }
-
   .ServiceBanner {
       font-size: 2px;
       font-family: Helvetica, Arial, sans-serif;

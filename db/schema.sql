@@ -64,3 +64,21 @@ VALUES("1729b8ea-1ab1-11ea-b9fe-332f5417770f", "HB-9",  499.99,
 "A long-range blaster rifle with an intricately-patterned barrel and an elegant, curving stock and shoulder brace.", "Features a front sight over the tip of the barrel and a 
 hand-turned recharge valve.", "A blaster rifle manufactured by Zenoti Arms during the 
 Clone Wars.");
+
+INSERT INTO products
+    (id, product_name, price, line_1, line_2, line_3)
+VALUES("1723idea-1ab1-11ea-b9fe-332f5417770f", "The 5-x6t Baby Carrier",  99.99, 
+"This carrier is designed for comfort and protection for your little one. ", "This carrier comes
+with everything from a 8 inch blast shield, hover pads on the bottom, and machine washable bed pads.", 
+"Baby Yoda not included.");
+
+INSERT INTO products
+    (id, product_name, price, line_1, line_2, line_3)
+VALUES("1723ibba-1ab1-11ea-b9fe-332f5417770f", "Slave-1",  39999.99, 
+"A modified Firespray-31-class patrol and attack craft.", "
+Used by the infamous bounty hunter Jango Fett before the Clone Wars.", "Later  used by his unaltered
+cloned 'son' Boba Fett just prior to the Fall of the Republic and during the reign of the Galactic Empire..");
+
+
+
+ 

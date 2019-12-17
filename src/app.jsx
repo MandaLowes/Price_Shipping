@@ -7,32 +7,25 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            clicks: 0,
             products: [],
             query: "17264ec6-1ab1-11ea-b9fe-332f5417770f"
         }
     }
     componentDidMount() {
-        // this.getProductInfo()
         this.getSingleProduct()
-        console.log(this.state.query)
+    
+
     }
-    // getProductInfo() {
-    //     axios.get(`http://localhost:3007/products`)
-    //         .then(({ data }) => {
-    //             console.log(data)
-    //             this.setState({ products: data })
-    //         })
-    // }
-    //   handleSubmit() {
-    //   this.getSingleProduct()
-    // }
     getSingleProduct() {
       axios.get(`http://localhost:3007/products/${this.state.query}`)
           .then(({ data }) => {
               console.log(data)
-            //   console.log(this.state.query)
-          this.setState({ products: data})
-        })
+              this.setState({ products: data })
+          })
+     
+        
+        
     }
     render() {
         return (
